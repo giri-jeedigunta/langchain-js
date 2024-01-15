@@ -1,4 +1,3 @@
-
 import { ChatOpenAI } from "@langchain/openai";
 import { HumanMessage } from "@langchain/core/messages";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
@@ -13,7 +12,7 @@ import { RunnableSequence } from "@langchain/core/runnables";
 //Language model
 const model = new ChatOpenAI({
   modelName: "gpt-3.5-turbo-1106", 
-  openAIApiKey: '' // your openai api key
+  openAIApiKey: '' // your openai api key here
 });
 
 const langModel = await model.invoke([
