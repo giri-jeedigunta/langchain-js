@@ -102,3 +102,4 @@ const answer = await retrievalChain.invoke({
 
 console.log("What are the prerequisites for this course?")
 console.log(answer);
+
