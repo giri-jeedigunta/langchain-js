@@ -3,7 +3,9 @@
 ## Run locally 
 ```
 yarn intall
-npx vite-node <filename.ts>
+npx vite-node <filename>.ts
+or
+yarn dev --watch <filename>.ts
 
 ```
 
